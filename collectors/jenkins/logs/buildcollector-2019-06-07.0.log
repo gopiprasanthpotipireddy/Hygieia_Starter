@@ -3038,3 +3038,14 @@
 2019-06-07 17:46:00,044 INFO  c.c.d.collector.CollectorTask - New jobs                0        0s
 2019-06-07 17:46:00,108 INFO  c.c.d.collector.CollectorTask - New builds              0        0s
 2019-06-07 17:46:00,109 INFO  c.c.d.collector.CollectorTask - New configs             0        0s
+2019-06-07 17:46:00,110 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-07 17:46:59,999 INFO  c.c.d.collector.CollectorTask - Running Collector: Hudson
+2019-06-07 17:47:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-07 17:47:00,007 INFO  c.c.d.collector.CollectorTask - http://localhost:8084
+2019-06-07 17:47:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-07 17:47:00,021 INFO  c.c.d.collector.DefaultHudsonClient - Fetching jobs 0/12 pageSize 1000...
+2019-06-07 17:47:00,033 INFO  c.c.d.collector.CollectorTask - Fetched jobs                     0s
+2019-06-07 17:47:00,034 INFO  c.c.d.collector.CollectorTask - New jobs                0        0s
+2019-06-07 17:47:00,091 INFO  c.c.d.collector.CollectorTask - New builds              0        0s
+2019-06-07 17:47:00,092 INFO  c.c.d.collector.CollectorTask - New configs             0        0s
+2019-06-07 17:47:00,093 INFO  c.c.d.collector.CollectorTask - Finished                         0s
