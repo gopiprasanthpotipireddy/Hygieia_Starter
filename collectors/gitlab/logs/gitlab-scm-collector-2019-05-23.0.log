@@ -1,0 +1,158 @@
+2019-05-23 11:09:26,540 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.2.Final
+2019-05-23 11:09:27,755 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3809c3cc: startup date [Thu May 23 11:09:27 IST 2019]; root of context hierarchy
+2019-05-23 11:09:31,198 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-05-23 11:09:31,581 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$24150093] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-23 11:09:33,855 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://localhost:8888
+2019-05-23 11:09:37,567 WARN  o.s.c.c.c.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2019-05-23 11:09:37,569 INFO  com.capitalone.dashboard.Application - No profiles are active
+2019-05-23 11:09:37,805 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@19f0dc2e: startup date [Thu May 23 11:09:37 IST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3809c3cc
+2019-05-23 11:09:57,427 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ac2aa254-f00a-3c70-9a4c-92f849d8bc31
+2019-05-23 11:09:57,433 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Post-processing PropertySource instances
+2019-05-23 11:09:57,443 INFO  c.u.j.c.StringEncryptorConfiguration - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing String Encryptor based on properties with name 'jasyptStringEncryptor'
+2019-05-23 11:09:57,510 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2019-05-23 11:09:57,511 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-05-23 11:09:57,513 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-05-23 11:09:57,518 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-05-23 11:09:57,520 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource applicationConfig: [file:gitlab.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2019-05-23 11:09:57,523 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource applicationConfig: [file:./gitlab.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2019-05-23 11:09:57,535 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-05-23 11:09:57,542 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-05-23 11:09:57,547 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-05-23 11:09:57,766 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$24150093] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-23 11:09:58,179 INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService  'taskScheduler'
+2019-05-23 11:09:59,319 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse 
+2019-05-23 11:09:59,955 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2019-05-23 11:10:00,228 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-05-23 11:10:00,359 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@f161d399, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@7950f0f3, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@4087cdf6, socketFactory=javax.net.DefaultSocketFactory@6b0f1748, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2019-05-23 11:10:01,087 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:418}] to localhost:27017
+2019-05-23 11:10:01,252 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=571077}
+2019-05-23 11:10:03,013 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:422}] to localhost:27017
+2019-05-23 11:10:08,082 INFO  c.c.d.collector.CollectorTask - Running Collector: Gitlab
+2019-05-23 11:10:09,488 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse 
+2019-05-23 11:10:09,490 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:09,494 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2019-05-23 11:10:09,495 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-05-23 11:10:09,501 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-05-23 11:10:09,502 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:09,503 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@f161d399, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@7950f0f3, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@4087cdf6, socketFactory=javax.net.DefaultSocketFactory@6b0f1748, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2019-05-23 11:10:09,535 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:432}] to localhost:27017
+2019-05-23 11:10:09,540 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1067395}
+2019-05-23 11:10:09,583 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse 
+2019-05-23 11:10:09,586 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2019-05-23 11:10:09,587 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-05-23 11:10:09,637 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@f161d399, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@7950f0f3, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@4087cdf6, socketFactory=javax.net.DefaultSocketFactory@6b0f1748, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2019-05-23 11:10:10,669 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:433}] to localhost:27017
+2019-05-23 11:10:10,671 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=638540}
+2019-05-23 11:10:11,658 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse 
+2019-05-23 11:10:11,660 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2019-05-23 11:10:11,662 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-05-23 11:10:11,665 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@f161d399, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@7950f0f3, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@4087cdf6, socketFactory=javax.net.DefaultSocketFactory@6b0f1748, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2019-05-23 11:10:12,194 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:434}] to localhost:27017
+2019-05-23 11:10:12,195 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=290644}
+2019-05-23 11:10:14,143 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-05-23 11:10:14,286 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-05-23 11:10:14,287 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-05-23 11:10:14,290 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-05-23 11:10:14,295 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-05-23 11:10:14,321 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-05-23 11:10:14,365 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=19f0dc2e,type=ConfigurationPropertiesRebinder]
+2019-05-23 11:10:14,368 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/intelligent-automation%2Faddressbook/repository/commits/?ref_name=Dev&since=2019-05-09T05:40:14.299Z&per_page=100
+2019-05-23 11:10:14,471 INFO  com.capitalone.dashboard.Application - Started Application in 54.979 seconds (JVM running for 60.244)
+2019-05-23 11:10:14,770 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://git.virtusa.com/intelligent-automation/addressbook, 401 Unauthorized
+2019-05-23 11:10:14,770 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/IATVirtusa%2Fdevops/repository/commits/?ref_name=master&since=2019-05-23T05:30:14.770Z&per_page=100
+2019-05-23 11:10:14,850 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://github.com/IATVirtusa/devops, 401 Unauthorized
+2019-05-23 11:10:14,859 INFO  c.c.d.collector.CollectorTask - Repo Count              2        5s
+2019-05-23 11:10:14,859 INFO  c.c.d.collector.CollectorTask - New Commits             0        5s
+2019-05-23 11:10:14,860 INFO  c.c.d.collector.CollectorTask - Finished                         5s
+2019-05-23 11:10:15,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Gitlab
+2019-05-23 11:10:15,011 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:15,012 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-05-23 11:10:15,013 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:15,067 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/intelligent-automation%2Faddressbook/repository/commits/?ref_name=Dev&since=2019-05-09T05:40:15.067Z&per_page=100
+2019-05-23 11:10:15,154 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://git.virtusa.com/intelligent-automation/addressbook, 401 Unauthorized
+2019-05-23 11:10:15,154 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/IATVirtusa%2Fdevops/repository/commits/?ref_name=master&since=2019-05-23T05:30:15.154Z&per_page=100
+2019-05-23 11:10:15,233 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://github.com/IATVirtusa/devops, 401 Unauthorized
+2019-05-23 11:10:15,234 INFO  c.c.d.collector.CollectorTask - Repo Count              2        0s
+2019-05-23 11:10:15,236 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-05-23 11:10:15,241 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-05-23 11:10:16,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Gitlab
+2019-05-23 11:10:16,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:16,006 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-05-23 11:10:16,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:16,036 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/intelligent-automation%2Faddressbook/repository/commits/?ref_name=Dev&since=2019-05-09T05:40:16.036Z&per_page=100
+2019-05-23 11:10:16,119 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://git.virtusa.com/intelligent-automation/addressbook, 401 Unauthorized
+2019-05-23 11:10:16,120 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/IATVirtusa%2Fdevops/repository/commits/?ref_name=master&since=2019-05-23T05:30:16.120Z&per_page=100
+2019-05-23 11:10:16,550 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://github.com/IATVirtusa/devops, 401 Unauthorized
+2019-05-23 11:10:16,551 INFO  c.c.d.collector.CollectorTask - Repo Count              2        0s
+2019-05-23 11:10:16,552 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-05-23 11:10:16,553 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-05-23 11:10:17,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Gitlab
+2019-05-23 11:10:17,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:17,008 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-05-23 11:10:17,009 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:17,201 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/intelligent-automation%2Faddressbook/repository/commits/?ref_name=Dev&since=2019-05-09T05:40:17.201Z&per_page=100
+2019-05-23 11:10:17,636 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://git.virtusa.com/intelligent-automation/addressbook, 401 Unauthorized
+2019-05-23 11:10:17,637 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/IATVirtusa%2Fdevops/repository/commits/?ref_name=master&since=2019-05-23T05:30:17.637Z&per_page=100
+2019-05-23 11:10:17,728 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://github.com/IATVirtusa/devops, 401 Unauthorized
+2019-05-23 11:10:17,728 INFO  c.c.d.collector.CollectorTask - Repo Count              2        0s
+2019-05-23 11:10:17,729 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-05-23 11:10:17,733 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-05-23 11:10:18,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Gitlab
+2019-05-23 11:10:18,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:18,004 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-05-23 11:10:18,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:18,063 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/intelligent-automation%2Faddressbook/repository/commits/?ref_name=Dev&since=2019-05-09T05:40:18.063Z&per_page=100
+2019-05-23 11:10:18,145 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://git.virtusa.com/intelligent-automation/addressbook, 401 Unauthorized
+2019-05-23 11:10:18,146 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/IATVirtusa%2Fdevops/repository/commits/?ref_name=master&since=2019-05-23T05:30:18.146Z&per_page=100
+2019-05-23 11:10:18,536 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://github.com/IATVirtusa/devops, 401 Unauthorized
+2019-05-23 11:10:18,537 INFO  c.c.d.collector.CollectorTask - Repo Count              2        0s
+2019-05-23 11:10:18,538 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-05-23 11:10:18,542 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-05-23 11:10:19,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Gitlab
+2019-05-23 11:10:19,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:19,005 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-05-23 11:10:19,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:19,041 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/intelligent-automation%2Faddressbook/repository/commits/?ref_name=Dev&since=2019-05-09T05:40:19.041Z&per_page=100
+2019-05-23 11:10:19,125 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://git.virtusa.com/intelligent-automation/addressbook, 401 Unauthorized
+2019-05-23 11:10:19,126 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/IATVirtusa%2Fdevops/repository/commits/?ref_name=master&since=2019-05-23T05:30:19.126Z&per_page=100
+2019-05-23 11:10:19,209 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://github.com/IATVirtusa/devops, 401 Unauthorized
+2019-05-23 11:10:19,210 INFO  c.c.d.collector.CollectorTask - Repo Count              2        0s
+2019-05-23 11:10:19,213 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-05-23 11:10:19,215 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-05-23 11:10:20,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Gitlab
+2019-05-23 11:10:20,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:20,007 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-05-23 11:10:20,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:20,043 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/intelligent-automation%2Faddressbook/repository/commits/?ref_name=Dev&since=2019-05-09T05:40:20.042Z&per_page=100
+2019-05-23 11:10:20,132 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://git.virtusa.com/intelligent-automation/addressbook, 401 Unauthorized
+2019-05-23 11:10:20,133 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/IATVirtusa%2Fdevops/repository/commits/?ref_name=master&since=2019-05-23T05:30:20.133Z&per_page=100
+2019-05-23 11:10:20,212 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://github.com/IATVirtusa/devops, 401 Unauthorized
+2019-05-23 11:10:20,213 INFO  c.c.d.collector.CollectorTask - Repo Count              2        0s
+2019-05-23 11:10:20,214 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-05-23 11:10:20,218 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-05-23 11:10:21,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Gitlab
+2019-05-23 11:10:21,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:21,006 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-05-23 11:10:21,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:21,030 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/intelligent-automation%2Faddressbook/repository/commits/?ref_name=Dev&since=2019-05-09T05:40:21.029Z&per_page=100
+2019-05-23 11:10:21,417 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://git.virtusa.com/intelligent-automation/addressbook, 401 Unauthorized
+2019-05-23 11:10:21,417 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/IATVirtusa%2Fdevops/repository/commits/?ref_name=master&since=2019-05-23T05:30:21.417Z&per_page=100
+2019-05-23 11:10:21,492 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://github.com/IATVirtusa/devops, 401 Unauthorized
+2019-05-23 11:10:21,493 INFO  c.c.d.collector.CollectorTask - Repo Count              2        0s
+2019-05-23 11:10:21,494 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-05-23 11:10:21,498 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-05-23 11:10:22,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Gitlab
+2019-05-23 11:10:22,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:22,005 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-05-23 11:10:22,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-05-23 11:10:22,032 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/intelligent-automation%2Faddressbook/repository/commits/?ref_name=Dev&since=2019-05-09T05:40:22.031Z&per_page=100
+2019-05-23 11:10:22,123 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://git.virtusa.com/intelligent-automation/addressbook, 401 Unauthorized
+2019-05-23 11:10:22,123 INFO  c.c.d.gitlab.GitlabUrlUtility - ---> Gitlab URI: http://git.virtusa.com/api/v4/projects/IATVirtusa%2Fdevops/repository/commits/?ref_name=master&since=2019-05-23T05:30:22.123Z&per_page=100
+2019-05-23 11:10:22,211 INFO  c.c.d.c.GitlabGitCollectorTask - Failed to retrieve data, the repo or collector is most likey misconfigured: https://github.com/IATVirtusa/devops, 401 Unauthorized
+2019-05-23 11:10:22,211 INFO  c.c.d.collector.CollectorTask - Repo Count              2        0s
+2019-05-23 11:10:22,213 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-05-23 11:10:22,216 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-05-23 11:10:22,504 INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@19f0dc2e: startup date [Thu May 23 11:09:37 IST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3809c3cc
+2019-05-23 11:10:22,507 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-05-23 11:10:22,508 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-05-23 11:10:22,520 INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'

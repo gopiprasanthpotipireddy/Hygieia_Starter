@@ -1,0 +1,313 @@
+2019-06-10 10:45:39,701 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.2.Final
+2019-06-10 10:45:39,833 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3809c3cc: startup date [Mon Jun 10 10:45:39 IST 2019]; root of context hierarchy
+2019-06-10 10:45:40,111 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-10 10:45:40,250 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$24150093] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-10 10:45:40,601 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://localhost:8888
+2019-06-10 10:45:41,927 WARN  o.s.c.c.c.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2019-06-10 10:45:41,928 INFO  com.capitalone.dashboard.Application - No profiles are active
+2019-06-10 10:45:41,947 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@19f0dc2e: startup date [Mon Jun 10 10:45:41 IST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3809c3cc
+2019-06-10 10:45:43,423 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=dc341944-9a12-368f-928c-4e3abef0077f
+2019-06-10 10:45:43,427 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Post-processing PropertySource instances
+2019-06-10 10:45:43,440 INFO  c.u.j.c.StringEncryptorConfiguration - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing String Encryptor based on properties with name 'jasyptStringEncryptor'
+2019-06-10 10:45:43,448 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2019-06-10 10:45:43,454 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-06-10 10:45:43,455 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-06-10 10:45:43,455 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-06-10 10:45:43,455 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource applicationConfig: [file:github.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2019-06-10 10:45:43,455 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource applicationConfig: [file:./github.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2019-06-10 10:45:43,456 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-06-10 10:45:43,456 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-06-10 10:45:43,459 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-10 10:45:43,490 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$24150093] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-10 10:45:44,510 INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService  'taskScheduler'
+2019-06-10 10:45:44,617 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2019-06-10 10:45:44,733 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2019-06-10 10:45:44,858 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-06-10 10:45:45,054 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@d6984914, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@3c6c9069, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@3622034, socketFactory=javax.net.DefaultSocketFactory@58d5a864, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2019-06-10 10:45:45,290 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:15}] to localhost:27017
+2019-06-10 10:45:45,297 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=963831}
+2019-06-10 10:45:45,474 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:16}] to localhost:27017
+2019-06-10 10:45:45,910 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2019-06-10 10:45:45,911 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2019-06-10 10:45:45,911 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-06-10 10:45:45,913 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@d6984914, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@3c6c9069, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@3622034, socketFactory=javax.net.DefaultSocketFactory@58d5a864, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2019-06-10 10:45:45,926 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2019-06-10 10:45:45,926 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2019-06-10 10:45:45,928 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-06-10 10:45:45,928 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:17}] to localhost:27017
+2019-06-10 10:45:45,928 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@d6984914, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@3c6c9069, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@3622034, socketFactory=javax.net.DefaultSocketFactory@58d5a864, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2019-06-10 10:45:45,929 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=565243}
+2019-06-10 10:45:45,947 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:18}] to localhost:27017
+2019-06-10 10:45:45,949 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=956537}
+2019-06-10 10:45:46,364 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2019-06-10 10:45:46,365 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2019-06-10 10:45:46,366 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-06-10 10:45:46,367 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@d6984914, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@3c6c9069, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@3622034, socketFactory=javax.net.DefaultSocketFactory@58d5a864, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2019-06-10 10:45:46,382 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:19}] to localhost:27017
+2019-06-10 10:45:46,383 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=282257}
+2019-06-10 10:45:47,286 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-06-10 10:45:47,302 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-06-10 10:45:47,303 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-06-10 10:45:47,304 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-06-10 10:45:47,307 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-06-10 10:45:47,327 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-06-10 10:45:47,333 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=19f0dc2e,type=ConfigurationPropertiesRebinder]
+2019-06-10 10:45:47,363 INFO  com.capitalone.dashboard.Application - Started Application in 8.147 seconds (JVM running for 9.312)
+2019-06-10 10:45:50,002 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:45:50,021 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:45:50,021 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:45:50,021 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:45:50,458 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-10 10:45:50,459 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-06-10 10:45:50,459 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-10 10:45:50,460 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-10 10:45:50,460 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-10 10:45:55,001 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:45:55,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:45:55,004 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:45:55,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:45:55,030 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-10 10:45:55,031 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-06-10 10:45:55,032 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-10 10:45:55,032 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-10 10:45:55,032 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-10 10:46:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:46:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:00,006 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:46:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:00,030 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-10 10:46:00,030 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-06-10 10:46:00,030 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-10 10:46:00,031 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-10 10:46:00,031 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-10 10:46:05,002 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:46:05,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:05,004 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:46:05,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:05,025 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-10 10:46:05,025 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-06-10 10:46:05,026 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-10 10:46:05,026 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-10 10:46:05,027 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-10 10:46:10,002 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:46:10,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:10,005 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:46:10,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:10,024 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-10 10:46:10,025 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-06-10 10:46:10,025 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-10 10:46:10,025 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-10 10:46:10,025 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-10 10:46:15,002 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:46:15,053 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:15,053 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:46:15,053 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:15,089 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-10 10:46:15,089 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-06-10 10:46:15,090 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-10 10:46:15,090 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-10 10:46:15,090 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-10 10:46:20,001 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:46:20,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:20,004 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:46:20,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:20,020 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-10 10:46:20,020 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-06-10 10:46:20,020 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-10 10:46:20,021 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-10 10:46:20,021 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-10 10:46:25,001 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:46:25,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:25,004 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:46:25,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:25,019 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-10 10:46:25,020 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-06-10 10:46:25,020 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-10 10:46:25,020 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-10 10:46:25,021 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-10 10:46:30,001 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:46:30,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:30,003 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:46:30,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:30,018 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-10 10:46:30,018 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-06-10 10:46:30,018 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-10 10:46:30,018 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-10 10:46:30,019 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-10 10:46:35,002 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:46:35,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:35,004 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:46:35,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:35,020 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-10 10:46:35,020 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-06-10 10:46:35,020 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-10 10:46:35,021 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-10 10:46:35,021 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-10 10:46:40,002 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:46:40,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:40,006 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:46:40,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:40,038 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-10 10:46:40,040 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-06-10 10:46:40,040 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-10 10:46:40,041 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-10 10:46:40,041 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-10 10:46:45,001 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:46:45,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:45,004 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:46:45,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:45,017 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-10 10:46:45,018 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-06-10 10:46:45,018 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-10 10:46:45,018 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-10 10:46:45,018 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-10 10:46:50,001 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:46:50,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:50,006 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:46:50,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:50,024 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-10 10:46:50,024 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-06-10 10:46:50,025 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-10 10:46:50,025 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-10 10:46:50,026 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-10 10:46:55,001 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:46:55,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:55,004 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:46:55,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:46:55,019 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-10 10:46:55,019 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-06-10 10:46:55,019 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-10 10:46:55,019 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-10 10:46:55,020 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-10 10:46:55,672 INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@19f0dc2e: startup date [Mon Jun 10 10:45:41 IST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3809c3cc
+2019-06-10 10:46:55,681 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-06-10 10:46:55,682 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-06-10 10:46:55,698 INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2019-06-10 10:48:12,533 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.2.Final
+2019-06-10 10:48:12,683 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5e7b68a1: startup date [Mon Jun 10 10:48:12 IST 2019]; root of context hierarchy
+2019-06-10 10:48:12,942 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-10 10:48:13,049 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fd8780a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-10 10:48:13,419 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://localhost:8888
+2019-06-10 10:48:14,597 WARN  o.s.c.c.c.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2019-06-10 10:48:14,599 INFO  com.capitalone.dashboard.Application - No profiles are active
+2019-06-10 10:48:14,613 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6a891880: startup date [Mon Jun 10 10:48:14 IST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5e7b68a1
+2019-06-10 10:48:16,199 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=dc341944-9a12-368f-928c-4e3abef0077f
+2019-06-10 10:48:16,208 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Post-processing PropertySource instances
+2019-06-10 10:48:16,220 INFO  c.u.j.c.StringEncryptorConfiguration - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing String Encryptor based on properties with name 'jasyptStringEncryptor'
+2019-06-10 10:48:16,234 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2019-06-10 10:48:16,235 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-06-10 10:48:16,238 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-06-10 10:48:16,239 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-06-10 10:48:16,240 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource applicationConfig: [file:github.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2019-06-10 10:48:16,240 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource applicationConfig: [file:./github.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2019-06-10 10:48:16,241 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-06-10 10:48:16,241 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-06-10 10:48:16,247 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-10 10:48:16,295 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fd8780a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-10 10:48:19,552 INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService  'taskScheduler'
+2019-06-10 10:48:19,685 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2019-06-10 10:48:19,856 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2019-06-10 10:48:20,018 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-06-10 10:48:20,136 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@4fe62ccf, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@10befa90, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@422fd55d, socketFactory=javax.net.DefaultSocketFactory@483aca02, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2019-06-10 10:48:20,336 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:30}] to localhost:27017
+2019-06-10 10:48:20,338 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=651671}
+2019-06-10 10:48:20,559 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:31}] to localhost:27017
+2019-06-10 10:48:21,027 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2019-06-10 10:48:21,028 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2019-06-10 10:48:21,029 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-06-10 10:48:21,033 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@4fe62ccf, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@10befa90, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@422fd55d, socketFactory=javax.net.DefaultSocketFactory@483aca02, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2019-06-10 10:48:21,048 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2019-06-10 10:48:21,054 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2019-06-10 10:48:21,060 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:32}] to localhost:27017
+2019-06-10 10:48:21,060 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-06-10 10:48:21,061 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=414634}
+2019-06-10 10:48:21,062 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@4fe62ccf, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@10befa90, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@422fd55d, socketFactory=javax.net.DefaultSocketFactory@483aca02, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2019-06-10 10:48:21,087 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:33}] to localhost:27017
+2019-06-10 10:48:21,088 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=593688}
+2019-06-10 10:48:22,281 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2019-06-10 10:48:22,284 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2019-06-10 10:48:22,286 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-06-10 10:48:22,294 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@4fe62ccf, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@10befa90, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@422fd55d, socketFactory=javax.net.DefaultSocketFactory@483aca02, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2019-06-10 10:48:22,316 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:34}] to localhost:27017
+2019-06-10 10:48:22,317 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=772742}
+2019-06-10 10:48:23,400 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-06-10 10:48:23,413 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-06-10 10:48:23,414 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-06-10 10:48:23,415 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-06-10 10:48:23,417 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-06-10 10:48:23,441 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-06-10 10:48:23,450 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=6a891880,type=ConfigurationPropertiesRebinder]
+2019-06-10 10:48:23,481 INFO  com.capitalone.dashboard.Application - Started Application in 11.428 seconds (JVM running for 12.435)
+2019-06-10 10:48:25,002 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:48:25,139 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:48:25,139 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:48:25,141 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:48:25,230 INFO  c.c.d.collector.CollectorTask - Repo Count              0        0s
+2019-06-10 10:48:25,230 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-06-10 10:48:25,231 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-10 10:48:25,237 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-10 10:48:25,238 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-10 10:48:30,001 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:48:30,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:48:30,005 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:48:30,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:48:30,021 INFO  c.c.d.collector.CollectorTask - Repo Count              0        0s
+2019-06-10 10:48:30,021 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-06-10 10:48:30,022 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-10 10:48:30,026 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-10 10:48:30,027 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-10 10:48:35,001 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:48:35,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:48:35,005 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:48:35,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:48:35,016 INFO  c.c.d.collector.CollectorTask - Repo Count              0        0s
+2019-06-10 10:48:35,016 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2019-06-10 10:48:35,019 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-10 10:48:35,020 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-10 10:48:35,020 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-10 10:48:40,001 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:48:40,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:48:40,008 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:48:40,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:48:40,152 INFO  c.c.d.collector.GitHubCollectorTask - {password=, personalAccessToken=, branch=master, userID=, url=https://github.com/IATVirtusa/devops}::master:: get commits
+2019-06-10 10:48:40,248 INFO  c.c.d.collector.DefaultGitHubClient - Executing https://api.github.com/repos/IATVirtusa/devops/commits?sha=master&since=2019-05-27T10:48Z
+2019-06-10 10:48:45,614 INFO  c.c.d.collector.DefaultGitHubClient - Executing https://api.github.com/repositories/175592973/commits?sha=master&since=2019-05-27T10:48Z&page=2
+2019-06-10 10:48:47,426 INFO  c.c.d.collector.GitHubCollectorTask - {password=, personalAccessToken=, branch=master, userID=, url=https://github.com/IATVirtusa/devops}::master get issues
+2019-06-10 10:48:47,428 INFO  c.c.d.collector.DefaultGitHubClient - Executing https://api.github.com/repos/IATVirtusa/devops/issues?state=all&since=2019-05-27T10:48Z
+2019-06-10 10:48:47,745 INFO  c.c.d.collector.GitHubCollectorTask - {password=, personalAccessToken=, branch=master, userID=, url=https://github.com/IATVirtusa/devops}::master::get pulls
+2019-06-10 10:48:47,753 INFO  c.c.d.collector.DefaultGitHubClient - Executing [https://api.github.com/repos/IATVirtusa/devops/pulls?state=all&base=master&sort=updated&direction=desc
+2019-06-10 10:48:48,102 INFO  c.c.d.collector.DefaultGitHubClient - pr 2 changed publish step to QA from Dev
+2019-06-10 10:48:49,091 INFO  c.c.d.collector.CollectorTask - Repo Count              1        9s
+2019-06-10 10:48:49,092 INFO  c.c.d.collector.CollectorTask - New Commits            35        9s
+2019-06-10 10:48:49,093 INFO  c.c.d.collector.CollectorTask - New Pulls               1        9s
+2019-06-10 10:48:49,093 INFO  c.c.d.collector.CollectorTask - New Issues              0        9s
+2019-06-10 10:48:49,097 INFO  c.c.d.collector.CollectorTask - Finished                         9s
+2019-06-10 10:48:50,002 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:48:50,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:48:50,006 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:48:50,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:48:50,017 INFO  c.c.d.collector.GitHubCollectorTask - {password=, personalAccessToken=, branch=master, userID=, url=https://github.com/IATVirtusa/devops}::master:: get commits
+2019-06-10 10:48:50,018 INFO  c.c.d.collector.DefaultGitHubClient - Executing https://api.github.com/repos/IATVirtusa/devops/commits?sha=master&since=2019-06-10T10:38Z
+2019-06-10 10:48:50,323 INFO  c.c.d.collector.GitHubCollectorTask - {password=, personalAccessToken=, branch=master, userID=, url=https://github.com/IATVirtusa/devops}::master get issues
+2019-06-10 10:48:50,323 INFO  c.c.d.collector.DefaultGitHubClient - Executing https://api.github.com/repos/IATVirtusa/devops/issues?state=all&since=2019-06-10T10:38Z
+2019-06-10 10:48:50,618 INFO  c.c.d.collector.GitHubCollectorTask - {password=, personalAccessToken=, branch=master, userID=, url=https://github.com/IATVirtusa/devops}::master::get pulls
+2019-06-10 10:48:50,621 INFO  c.c.d.collector.DefaultGitHubClient - Executing [https://api.github.com/repos/IATVirtusa/devops/pulls?state=all&base=master&sort=updated&direction=desc
+2019-06-10 10:48:50,982 INFO  c.c.d.collector.DefaultGitHubClient - pr 2 changed publish step to QA from Dev
+2019-06-10 10:48:51,826 INFO  c.c.d.collector.CollectorTask - Repo Count              1        1s
+2019-06-10 10:48:51,827 INFO  c.c.d.collector.CollectorTask - New Commits             0        1s
+2019-06-10 10:48:51,828 INFO  c.c.d.collector.CollectorTask - New Pulls               0        1s
+2019-06-10 10:48:51,829 INFO  c.c.d.collector.CollectorTask - New Issues              0        1s
+2019-06-10 10:48:51,833 INFO  c.c.d.collector.CollectorTask - Finished                         1s
+2019-06-10 10:48:55,002 INFO  c.c.d.collector.CollectorTask - Running Collector: GitHub
+2019-06-10 10:48:55,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:48:55,005 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-10 10:48:55,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-10 10:48:55,017 INFO  c.c.d.collector.GitHubCollectorTask - {password=, personalAccessToken=, branch=master, userID=, url=https://github.com/IATVirtusa/devops}::master:: get commits
+2019-06-10 10:48:55,018 INFO  c.c.d.collector.DefaultGitHubClient - Executing https://api.github.com/repos/IATVirtusa/devops/commits?sha=master&since=2019-06-10T10:38Z
+2019-06-10 10:48:55,303 INFO  c.c.d.collector.GitHubCollectorTask - {password=, personalAccessToken=, branch=master, userID=, url=https://github.com/IATVirtusa/devops}::master get issues
+2019-06-10 10:48:55,304 INFO  c.c.d.collector.DefaultGitHubClient - Executing https://api.github.com/repos/IATVirtusa/devops/issues?state=all&since=2019-06-10T10:38Z
+2019-06-10 10:48:55,540 INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6a891880: startup date [Mon Jun 10 10:48:14 IST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5e7b68a1
+2019-06-10 10:48:55,552 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-06-10 10:48:55,553 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-06-10 10:48:55,565 INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2019-06-10 10:48:55,590 INFO  c.c.d.collector.GitHubCollectorTask - {password=, personalAccessToken=, branch=master, userID=, url=https://github.com/IATVirtusa/devops}::master::get pulls
