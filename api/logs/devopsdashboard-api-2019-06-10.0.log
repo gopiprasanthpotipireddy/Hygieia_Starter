@@ -1353,3 +1353,534 @@ java.lang.NullPointerException: null
 2019-06-10 11:41:07,834 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:44, serverValue:69}] to localhost:27017
 2019-06-10 11:43:53,746 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:40, serverValue:64}] to localhost:27017 because it is past its maximum allowed idle time.
 2019-06-10 11:45:02,640 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:45, serverValue:77}] to localhost:27017
+2019-06-10 11:46:03,546 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:43, serverValue:68}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 11:46:06,067 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:46, serverValue:78}] to localhost:27017
+2019-06-10 11:48:58,909 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:47, serverValue:79}] to localhost:27017
+2019-06-10 11:48:59,813 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:46, serverValue:78}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 11:49:58,475 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:48, serverValue:80}] to localhost:27017
+2019-06-10 11:50:59,154 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:45, serverValue:77}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 11:50:59,174 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:44, serverValue:69}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 11:50:59,460 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:51, serverValue:83}] to localhost:27017
+2019-06-10 11:50:59,468 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:49, serverValue:81}] to localhost:27017
+2019-06-10 11:50:59,729 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:50, serverValue:82}] to localhost:27017
+2019-06-10 11:52:53,193 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:47, serverValue:79}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 11:52:53,314 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:51, serverValue:83}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 11:53:53,178 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:48, serverValue:80}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 11:53:58,175 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:52, serverValue:84}] to localhost:27017
+2019-06-10 11:57:53,175 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:49, serverValue:81}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 11:57:58,112 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:53, serverValue:85}] to localhost:27017
+2019-06-10 11:57:58,345 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:54, serverValue:86}] to localhost:27017
+2019-06-10 11:57:58,346 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:55, serverValue:87}] to localhost:27017
+2019-06-10 11:59:53,171 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:53, serverValue:85}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 11:59:53,172 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:52, serverValue:84}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 11:59:58,113 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:56, serverValue:88}] to localhost:27017
+2019-06-10 11:59:58,372 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:57, serverValue:89}] to localhost:27017
+2019-06-10 12:01:53,168 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:54, serverValue:86}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:01:58,104 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:57, serverValue:89}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:01:58,203 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:58, serverValue:90}] to localhost:27017
+2019-06-10 12:01:58,222 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:59, serverValue:91}] to localhost:27017
+2019-06-10 12:04:53,165 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:59, serverValue:91}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:04:57,977 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:50, serverValue:82}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:04:57,977 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:58, serverValue:90}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:04:58,036 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:61, serverValue:94}] to localhost:27017
+2019-06-10 12:04:58,037 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:60, serverValue:92}] to localhost:27017
+2019-06-10 12:04:58,037 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:62, serverValue:93}] to localhost:27017
+2019-06-10 12:06:53,162 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:56, serverValue:88}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:06:53,166 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:60, serverValue:92}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:06:58,154 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:63, serverValue:95}] to localhost:27017
+2019-06-10 12:08:57,485 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:64, serverValue:96}] to localhost:27017
+2019-06-10 12:10:53,158 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:61, serverValue:94}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:11:53,155 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:64, serverValue:96}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:11:58,004 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:65, serverValue:97}] to localhost:27017
+2019-06-10 12:13:53,154 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:62, serverValue:93}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:15:57,978 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:67, serverValue:99}] to localhost:27017
+2019-06-10 12:15:58,138 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:66, serverValue:98}] to localhost:27017
+2019-06-10 12:17:53,149 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:67, serverValue:99}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:17:53,164 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:55, serverValue:87}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:17:58,008 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:68, serverValue:100}] to localhost:27017
+2019-06-10 12:17:58,088 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:69, serverValue:101}] to localhost:27017
+2019-06-10 12:19:06,945 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:66, serverValue:98}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:19:53,146 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:65, serverValue:97}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:19:57,998 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:70, serverValue:102}] to localhost:27017
+2019-06-10 12:21:53,144 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:69, serverValue:101}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:22:06,958 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:71, serverValue:103}] to localhost:27017
+2019-06-10 12:23:53,141 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:63, serverValue:95}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:24:57,968 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:72, serverValue:104}] to localhost:27017
+2019-06-10 12:26:53,137 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:71, serverValue:103}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:27:24,227 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:73, serverValue:105}] to localhost:27017
+2019-06-10 12:29:24,045 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:74, serverValue:106}] to localhost:27017
+2019-06-10 12:30:58,017 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:75, serverValue:107}] to localhost:27017
+2019-06-10 12:31:57,967 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:72, serverValue:104}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:32:53,145 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:70, serverValue:102}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:32:58,016 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:74, serverValue:106}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:33:23,946 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:76, serverValue:108}] to localhost:27017
+2019-06-10 12:34:53,127 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:68, serverValue:100}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:35:23,815 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:77, serverValue:109}] to localhost:27017
+2019-06-10 12:35:23,857 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:78, serverValue:110}] to localhost:27017
+2019-06-10 12:35:23,864 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:79, serverValue:111}] to localhost:27017
+2019-06-10 12:36:53,271 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:77, serverValue:109}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:37:53,125 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:78, serverValue:110}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:37:53,125 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:79, serverValue:111}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:37:57,964 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:80, serverValue:112}] to localhost:27017
+2019-06-10 12:38:23,981 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:81, serverValue:113}] to localhost:27017
+2019-06-10 12:39:53,121 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:75, serverValue:107}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:40:27,067 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:82, serverValue:114}] to localhost:27017
+2019-06-10 12:41:53,251 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:80, serverValue:112}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:42:53,118 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:76, serverValue:108}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:43:07,552 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:83, serverValue:115}] to localhost:27017
+2019-06-10 12:43:58,719 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:84, serverValue:116}] to localhost:27017
+2019-06-10 12:44:58,083 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:85, serverValue:117}] to localhost:27017
+2019-06-10 12:46:53,113 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:84, serverValue:116}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:46:53,152 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:73, serverValue:105}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:46:57,949 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:86, serverValue:118}] to localhost:27017
+2019-06-10 12:47:24,395 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:87, serverValue:119}] to localhost:27017
+2019-06-10 12:48:53,110 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:86, serverValue:118}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:48:53,111 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:81, serverValue:113}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:48:57,950 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:89, serverValue:121}] to localhost:27017
+2019-06-10 12:48:57,963 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:88, serverValue:120}] to localhost:27017
+2019-06-10 12:49:57,958 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:83, serverValue:115}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:50:53,110 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:89, serverValue:121}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:50:57,911 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:90, serverValue:122}] to localhost:27017
+2019-06-10 12:51:02,370 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:91, serverValue:123}] to localhost:27017
+2019-06-10 12:52:23,919 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:82, serverValue:114}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:52:24,194 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:88, serverValue:120}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:52:57,969 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:92, serverValue:124}] to localhost:27017
+2019-06-10 12:52:58,198 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:93, serverValue:125}] to localhost:27017
+2019-06-10 12:54:53,104 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:92, serverValue:124}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:54:58,675 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:94, serverValue:126}] to localhost:27017
+2019-06-10 12:56:53,104 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:93, serverValue:125}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:56:53,262 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:87, serverValue:119}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:57:58,758 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:95, serverValue:127}] to localhost:27017
+2019-06-10 12:58:02,218 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:96, serverValue:128}] to localhost:27017
+2019-06-10 12:59:24,516 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:90, serverValue:122}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 12:59:53,132 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:94, serverValue:126}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:00:24,526 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:98, serverValue:129}] to localhost:27017
+2019-06-10 13:00:24,526 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:97, serverValue:130}] to localhost:27017
+2019-06-10 13:01:54,567 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:95, serverValue:127}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:03:05,359 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:98, serverValue:129}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:04:25,413 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:99, serverValue:131}] to localhost:27017
+2019-06-10 13:05:53,113 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:97, serverValue:130}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:08:24,976 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:85, serverValue:117}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:08:25,997 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:100, serverValue:133}] to localhost:27017
+2019-06-10 13:09:05,101 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:102, serverValue:140}] to localhost:27017
+2019-06-10 13:09:05,126 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:101, serverValue:139}] to localhost:27017
+2019-06-10 13:10:53,195 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:100, serverValue:133}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:11:02,067 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:103, serverValue:141}] to localhost:27017
+2019-06-10 13:12:53,099 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:101, serverValue:139}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:13:53,084 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:103, serverValue:141}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:15:04,499 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:96, serverValue:128}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:15:04,565 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:104, serverValue:147}] to localhost:27017
+2019-06-10 13:15:04,566 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:105, serverValue:148}] to localhost:27017
+2019-06-10 13:16:04,880 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:104, serverValue:147}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:16:04,893 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:105, serverValue:148}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:16:04,894 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:91, serverValue:123}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:16:04,894 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:102, serverValue:140}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:16:04,894 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:99, serverValue:131}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:16:04,941 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:106, serverValue:150}] to localhost:27017
+2019-06-10 13:16:04,941 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:107, serverValue:149}] to localhost:27017
+2019-06-10 13:16:04,941 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:110, serverValue:153}] to localhost:27017
+2019-06-10 13:16:04,942 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:111, serverValue:154}] to localhost:27017
+2019-06-10 13:16:04,959 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:109, serverValue:152}] to localhost:27017
+2019-06-10 13:16:04,979 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:108, serverValue:151}] to localhost:27017
+2019-06-10 13:17:09,193 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:111, serverValue:154}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:17:09,194 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:107, serverValue:149}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:17:09,194 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:106, serverValue:150}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:17:09,213 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:112, serverValue:155}] to localhost:27017
+2019-06-10 13:17:09,216 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:113, serverValue:156}] to localhost:27017
+2019-06-10 13:18:53,078 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:110, serverValue:153}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:19:17,936 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:112, serverValue:155}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:19:17,937 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:113, serverValue:156}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:21:09,943 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:114, serverValue:157}] to localhost:27017
+2019-06-10 13:21:10,002 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:115, serverValue:158}] to localhost:27017
+2019-06-10 13:22:44,290 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:116, serverValue:166}] to localhost:27017
+2019-06-10 13:24:53,071 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:116, serverValue:166}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:24:53,071 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:108, serverValue:151}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:27:09,910 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:117, serverValue:179}] to localhost:27017
+2019-06-10 13:28:29,336 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:118, serverValue:180}] to localhost:27017
+2019-06-10 13:30:29,868 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:114, serverValue:157}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:30:29,871 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:115, serverValue:158}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:30:29,917 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:109, serverValue:152}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:30:29,930 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:119, serverValue:181}] to localhost:27017
+2019-06-10 13:30:29,961 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:120, serverValue:182}] to localhost:27017
+2019-06-10 13:31:53,065 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:120, serverValue:182}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:33:29,890 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:121, serverValue:183}] to localhost:27017
+2019-06-10 13:34:29,897 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:118, serverValue:180}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:34:29,905 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:117, serverValue:179}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:34:34,875 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:122, serverValue:184}] to localhost:27017
+2019-06-10 13:36:53,058 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:121, serverValue:183}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:37:29,316 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:123, serverValue:185}] to localhost:27017
+2019-06-10 13:37:29,319 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:124, serverValue:186}] to localhost:27017
+2019-06-10 13:37:29,323 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:125, serverValue:187}] to localhost:27017
+2019-06-10 13:38:29,327 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:122, serverValue:184}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:40:24,803 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:126, serverValue:188}] to localhost:27017
+2019-06-10 13:40:24,805 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:127, serverValue:189}] to localhost:27017
+2019-06-10 13:41:53,053 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:119, serverValue:181}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:42:53,052 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:123, serverValue:185}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:43:29,932 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:126, serverValue:188}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:43:30,418 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:128, serverValue:195}] to localhost:27017
+2019-06-10 13:43:38,852 ERROR c.c.d.rest.RestApiExceptionHandler - The given id must not be null!
+java.lang.IllegalArgumentException: The given id must not be null!
+	at org.springframework.util.Assert.notNull(Assert.java:115) ~[spring-core-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findOne(SimpleMongoRepository.java:118) ~[spring-data-mongodb-1.8.0.RELEASE.jar!/:na]
+	at sun.reflect.GeneratedMethodAccessor133.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:475) ~[spring-data-commons-1.11.0.RELEASE.jar!/:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:460) ~[spring-data-commons-1.11.0.RELEASE.jar!/:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:432) ~[spring-data-commons-1.11.0.RELEASE.jar!/:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:61) ~[spring-data-commons-1.11.0.RELEASE.jar!/:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208) ~[spring-aop-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at com.sun.proxy.$Proxy108.findOne(Unknown Source) ~[na:na]
+	at com.capitalone.dashboard.service.DashboardServiceImpl.associateCollectorToComponent(DashboardServiceImpl.java:288) ~[api.jar!/:3.0.1]
+	at com.capitalone.dashboard.rest.DashboardController.updateWidget(DashboardController.java:175) ~[api.jar!/:3.0.1]
+	at com.capitalone.dashboard.rest.DashboardController$$FastClassBySpringCGLIB$$857f1c73.invoke(<generated>) ~[api.jar!/:3.0.1]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720) ~[spring-aop-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:68) ~[spring-security-core-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655) ~[spring-aop-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at com.capitalone.dashboard.rest.DashboardController$$EnhancerBySpringCGLIB$$fb993c4c.updateWidget(<generated>) ~[api.jar!/:3.0.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817) ~[spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731) ~[spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) ~[spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) ~[spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968) [spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:881) [spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:651) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844) [spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at com.capitalone.dashboard.auth.apitoken.ApiTokenRequestFilter.doFilter(ApiTokenRequestFilter.java:48) [api.jar!/:3.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at com.capitalone.dashboard.auth.webhook.github.GithubWebHookRequestFilter.doFilter(GithubWebHookRequestFilter.java:54) [api.jar!/:3.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at com.capitalone.dashboard.auth.token.JwtAuthenticationFilter.doFilter(JwtAuthenticationFilter.java:40) [api.jar!/:3.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:169) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at com.capitalone.dashboard.auth.webhook.github.GithubWebHookRequestFilter.doFilter(GithubWebHookRequestFilter.java:54) [api.jar!/:3.0.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at com.capitalone.dashboard.auth.token.JwtAuthenticationFilter.doFilter(JwtAuthenticationFilter.java:40) [api.jar!/:3.0.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at com.capitalone.dashboard.auth.apitoken.ApiTokenRequestFilter.doFilter(ApiTokenRequestFilter.java:48) [api.jar!/:3.0.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346) [spring-web-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262) [spring-web-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121) [spring-web-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_172]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_172]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_172]
+2019-06-10 13:44:42,847 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:127, serverValue:189}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:44:42,848 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:125, serverValue:187}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:44:42,848 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:128, serverValue:195}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:44:42,849 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:124, serverValue:186}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:44:42,867 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:129, serverValue:196}] to localhost:27017
+2019-06-10 13:44:42,867 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:130, serverValue:197}] to localhost:27017
+2019-06-10 13:44:42,987 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:132, serverValue:199}] to localhost:27017
+2019-06-10 13:44:42,987 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:131, serverValue:198}] to localhost:27017
+2019-06-10 13:44:42,994 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:133, serverValue:200}] to localhost:27017
+2019-06-10 13:45:53,049 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:130, serverValue:197}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:45:53,049 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:129, serverValue:196}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:46:28,936 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:134, serverValue:202}] to localhost:27017
+2019-06-10 13:47:28,928 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:135, serverValue:203}] to localhost:27017
+2019-06-10 13:48:53,046 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:131, serverValue:198}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:49:53,046 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:132, serverValue:199}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:50:28,920 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:137, serverValue:205}] to localhost:27017
+2019-06-10 13:50:28,923 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:136, serverValue:204}] to localhost:27017
+2019-06-10 13:51:53,043 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:133, serverValue:200}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:52:28,875 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:138, serverValue:206}] to localhost:27017
+2019-06-10 13:53:28,867 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:137, serverValue:205}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:54:28,864 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:139, serverValue:207}] to localhost:27017
+2019-06-10 13:56:28,910 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:135, serverValue:203}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:56:53,037 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:138, serverValue:206}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 13:58:28,908 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:140, serverValue:208}] to localhost:27017
+2019-06-10 13:58:28,922 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:141, serverValue:209}] to localhost:27017
+2019-06-10 14:00:53,035 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:140, serverValue:208}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:00:53,036 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:141, serverValue:209}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:01:33,428 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:142, serverValue:210}] to localhost:27017
+2019-06-10 14:03:28,853 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:139, serverValue:207}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:03:28,874 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:143, serverValue:211}] to localhost:27017
+2019-06-10 14:05:28,845 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:142, serverValue:210}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:07:28,853 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:144, serverValue:212}] to localhost:27017
+2019-06-10 14:07:28,858 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:145, serverValue:213}] to localhost:27017
+2019-06-10 14:08:53,025 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:134, serverValue:202}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:08:53,026 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:145, serverValue:213}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:09:28,902 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:146, serverValue:214}] to localhost:27017
+2019-06-10 14:09:28,905 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:147, serverValue:215}] to localhost:27017
+2019-06-10 14:10:53,025 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:143, serverValue:211}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:10:53,027 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:146, serverValue:214}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:11:28,860 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:148, serverValue:216}] to localhost:27017
+2019-06-10 14:11:28,877 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:149, serverValue:217}] to localhost:27017
+2019-06-10 14:12:53,023 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:136, serverValue:204}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:13:28,896 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:150, serverValue:218}] to localhost:27017
+2019-06-10 14:14:53,019 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:147, serverValue:215}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:16:28,913 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:151, serverValue:219}] to localhost:27017
+2019-06-10 14:17:53,017 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:149, serverValue:217}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:17:53,017 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:148, serverValue:216}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:18:28,843 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:153, serverValue:221}] to localhost:27017
+2019-06-10 14:18:28,843 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:152, serverValue:220}] to localhost:27017
+2019-06-10 14:19:53,015 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:150, serverValue:218}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:21:28,859 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:154, serverValue:222}] to localhost:27017
+2019-06-10 14:22:53,012 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:152, serverValue:220}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:22:53,012 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:153, serverValue:221}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:23:28,872 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:155, serverValue:223}] to localhost:27017
+2019-06-10 14:26:53,008 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:144, serverValue:212}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:26:53,008 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:155, serverValue:223}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:27:17,641 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:156, serverValue:224}] to localhost:27017
+2019-06-10 14:27:17,642 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:157, serverValue:225}] to localhost:27017
+2019-06-10 14:27:17,659 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:158, serverValue:226}] to localhost:27017
+2019-06-10 14:27:17,667 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:159, serverValue:227}] to localhost:27017
+2019-06-10 14:28:42,795 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:158, serverValue:226}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:28:42,795 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:159, serverValue:227}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:28:42,800 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:154, serverValue:222}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:28:42,845 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:151, serverValue:219}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:28:42,865 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:161, serverValue:228}] to localhost:27017
+2019-06-10 14:28:42,884 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:163, serverValue:230}] to localhost:27017
+2019-06-10 14:28:42,885 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:160, serverValue:229}] to localhost:27017
+2019-06-10 14:28:42,886 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:162, serverValue:231}] to localhost:27017
+2019-06-10 14:29:53,006 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:157, serverValue:225}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:29:53,006 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:161, serverValue:228}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:29:53,007 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:156, serverValue:224}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:30:42,924 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:164, serverValue:232}] to localhost:27017
+2019-06-10 14:31:53,004 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:160, serverValue:229}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:31:53,004 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:162, serverValue:231}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:32:42,936 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:165, serverValue:233}] to localhost:27017
+2019-06-10 14:32:42,936 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:166, serverValue:234}] to localhost:27017
+2019-06-10 14:32:42,944 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:167, serverValue:235}] to localhost:27017
+2019-06-10 14:33:53,002 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:163, serverValue:230}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:34:53,000 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:165, serverValue:233}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:34:53,000 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:164, serverValue:232}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:35:42,813 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:168, serverValue:236}] to localhost:27017
+2019-06-10 14:36:52,999 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:168, serverValue:236}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:37:42,826 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:169, serverValue:237}] to localhost:27017
+2019-06-10 14:37:42,837 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:170, serverValue:238}] to localhost:27017
+2019-06-10 14:38:52,996 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:167, serverValue:235}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:39:43,211 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:166, serverValue:234}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:39:43,212 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:170, serverValue:238}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:39:43,212 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:169, serverValue:237}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:39:43,225 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:171, serverValue:239}] to localhost:27017
+2019-06-10 14:39:43,299 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:172, serverValue:241}] to localhost:27017
+2019-06-10 14:39:43,301 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:175, serverValue:242}] to localhost:27017
+2019-06-10 14:39:43,306 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:173, serverValue:240}] to localhost:27017
+2019-06-10 14:39:43,316 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:176, serverValue:243}] to localhost:27017
+2019-06-10 14:39:43,322 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:174, serverValue:244}] to localhost:27017
+2019-06-10 14:40:52,994 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:172, serverValue:241}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:40:52,994 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:175, serverValue:242}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:40:52,995 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:176, serverValue:243}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:41:42,832 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:174, serverValue:244}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:42:42,857 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:177, serverValue:245}] to localhost:27017
+2019-06-10 14:42:42,868 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:178, serverValue:246}] to localhost:27017
+2019-06-10 14:42:42,883 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:179, serverValue:247}] to localhost:27017
+2019-06-10 14:42:42,884 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:180, serverValue:248}] to localhost:27017
+2019-06-10 14:43:52,993 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:171, serverValue:239}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:43:52,994 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:178, serverValue:246}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:43:52,995 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:177, serverValue:245}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:45:42,819 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:179, serverValue:247}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:45:42,879 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:181, serverValue:249}] to localhost:27017
+2019-06-10 14:45:42,962 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:182, serverValue:250}] to localhost:27017
+2019-06-10 14:45:42,995 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:183, serverValue:251}] to localhost:27017
+2019-06-10 14:46:52,988 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:173, serverValue:240}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:46:53,012 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:183, serverValue:251}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:47:42,808 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:181, serverValue:249}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:47:42,831 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:184, serverValue:257}] to localhost:27017
+2019-06-10 14:48:34,055 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:185, serverValue:260}] to localhost:27017
+2019-06-10 14:48:34,056 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:186, serverValue:261}] to localhost:27017
+2019-06-10 14:48:34,186 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:187, serverValue:262}] to localhost:27017
+2019-06-10 14:49:45,709 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:186, serverValue:261}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:49:45,736 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:184, serverValue:257}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:49:45,736 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:180, serverValue:248}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:49:45,843 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:188, serverValue:268}] to localhost:27017
+2019-06-10 14:49:46,038 ERROR c.c.d.rest.RestApiExceptionHandler - null
+java.lang.NullPointerException: null
+	at com.capitalone.dashboard.service.CommitServiceImpl.search(CommitServiceImpl.java:93) ~[api.jar!/:3.0.1]
+	at com.capitalone.dashboard.rest.ZCommitController.search(ZCommitController.java:37) ~[api.jar!/:3.0.1]
+	at sun.reflect.GeneratedMethodAccessor446.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817) ~[spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731) ~[spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) ~[spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) ~[spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968) [spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:859) [spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844) [spring-webmvc-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at com.capitalone.dashboard.auth.apitoken.ApiTokenRequestFilter.doFilter(ApiTokenRequestFilter.java:48) [api.jar!/:3.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at com.capitalone.dashboard.auth.webhook.github.GithubWebHookRequestFilter.doFilter(GithubWebHookRequestFilter.java:54) [api.jar!/:3.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at com.capitalone.dashboard.auth.token.JwtAuthenticationFilter.doFilter(JwtAuthenticationFilter.java:40) [api.jar!/:3.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:169) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at com.capitalone.dashboard.auth.webhook.github.GithubWebHookRequestFilter.doFilter(GithubWebHookRequestFilter.java:54) [api.jar!/:3.0.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at com.capitalone.dashboard.auth.token.JwtAuthenticationFilter.doFilter(JwtAuthenticationFilter.java:40) [api.jar!/:3.0.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at com.capitalone.dashboard.auth.apitoken.ApiTokenRequestFilter.doFilter(ApiTokenRequestFilter.java:48) [api.jar!/:3.0.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176) [spring-security-web-4.0.3.RELEASE.jar!/:4.0.3.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346) [spring-web-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262) [spring-web-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121) [spring-web-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_172]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_172]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.28.jar!/:8.0.28]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_172]
+2019-06-10 14:50:13,811 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:189, serverValue:269}] to localhost:27017
+2019-06-10 14:51:52,984 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:188, serverValue:268}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:52:13,758 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:187, serverValue:262}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:52:17,094 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:190, serverValue:270}] to localhost:27017
+2019-06-10 14:53:52,982 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:185, serverValue:260}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:54:13,771 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:191, serverValue:271}] to localhost:27017
+2019-06-10 14:55:13,804 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:192, serverValue:272}] to localhost:27017
+2019-06-10 14:55:13,804 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:193, serverValue:273}] to localhost:27017
+2019-06-10 14:56:52,981 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:191, serverValue:271}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:56:52,981 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:182, serverValue:250}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:56:52,982 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:190, serverValue:270}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:56:52,983 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:193, serverValue:273}] to localhost:27017 because it is past its maximum allowed idle time.
+2019-06-10 14:56:54,199 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:195, serverValue:275}] to localhost:27017
+2019-06-10 14:56:54,199 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:194, serverValue:274}] to localhost:27017
